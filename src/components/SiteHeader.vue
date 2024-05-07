@@ -3,7 +3,8 @@
   <nav class="nav">
     <router-link :to="{ name: 'Home' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link> |
-    <router-link :to="{ name: 'Pilots' }">Pilots</router-link>
+    <router-link :to="{ name: 'Pilots' }">Pilots</router-link> |
+    <router-link :to="{ name: 'Instructor' }">Instructor</router-link>
   </nav>
 </template>
 
